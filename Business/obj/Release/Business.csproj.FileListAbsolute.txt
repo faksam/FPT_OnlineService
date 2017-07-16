@@ -1,0 +1,27 @@
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Business\bin\Release\Business.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Business\bin\Release\Business.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Business\bin\Release\DAL.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Business\bin\Release\Entity.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Business\bin\Release\DAL.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Business\bin\Release\Entity.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Business\obj\Release\Business.csprojResolveAssemblyReference.cache
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Business\obj\Release\Business.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Business\obj\Release\Business.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Business\bin\Release\Business.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Business\bin\Release\Business.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Business\bin\Release\DAL.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Business\bin\Release\Entity.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Business\bin\Release\DAL.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Business\bin\Release\Entity.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Business\obj\Release\Business.csprojResolveAssemblyReference.cache
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Business\obj\Release\Business.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Business\obj\Release\Business.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Business\bin\Release\Business.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Business\bin\Release\Business.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Business\bin\Release\DAL.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Business\bin\Release\Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Business\bin\Release\DAL.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Business\bin\Release\Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Business\obj\Release\Business.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Business\obj\Release\Business.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Business\obj\Release\Business.pdb

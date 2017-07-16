@@ -1,0 +1,67 @@
+﻿@model FPT_OnlineService.Models.Semester
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_StaffLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Semester</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoOfWeeks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoOfWeeks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoOfMonths)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoOfMonths)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Season)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Season)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Name }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

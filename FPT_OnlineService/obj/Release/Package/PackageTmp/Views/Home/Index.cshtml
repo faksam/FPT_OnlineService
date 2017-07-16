@@ -1,0 +1,179 @@
+﻿@model FPT_OnlineService.Models.MailModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="home-div">
+    <div>
+        <article id="article" class="container">
+            <div class="">
+                <!-- Wrapper for slides -->
+                <div class="">
+                    <div class="item active">
+                        <div class="col-lg-6">
+                            <div class="inner">
+                                <h2 class="h4">Welcome to FPT - University Student Service Website</h2>
+                                <div class="list-group">
+
+                                    <!-- content in leftContent -->
+                                    <div class="list-group-item" data-toggle="popover" data-title="Thông báo DSSV thi lần 2 giữa kỳ tiếng Trung Block 1 SPRING2016 ngày 24.02.2016" data-html="true">
+                                        <h5 class="list-group-item-heading" />
+                                        <div on="content.ordering">
+                                            <div>
+                                                <a href="http://international.fpt.edu.vn" target="_blank">
+                                                    <span class="text-info ng-binding">Visit FU international website for more information.</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div on="content.ordering">
+                                            <!-- ngSwitchWhen: 0 -->
+                                            <!-- ngSwitchDefault:  -->
+                                            <div>
+                                                <a href="http://fpt.edu.vn" target="_blank"> <span class="text-info ng-binding">Vietnamese? Visit FU home website for more information.</span></a>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div on="content.ordering">
+                                            <!-- ngSwitchWhen: 0 -->
+                                            <!-- ngSwitchDefault:  -->
+                                            <div>
+                                                <a href="https://uniap.fpt.edu.vn" target="_blank">
+                                                    <span class="text-info">Quick login to FU Uniap?</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-section">
+                    <div class="row">
+                        <div style="float:right;padding-right:1.7%;margin-top:10.2%;">
+                            <br /><br />
+                            <div class="btn-group">
+                                <div class="btn-group">
+                                    <button id="contact-button" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                        <span> <img src="~/images/social-media.png" /></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li class=" dropdown-header">Instant video call....</li>
+                                        <li><div id="SkypeButton_Call" style="height:0.5%"></div> </li>
+                                        <li class="divider"></li>
+                                    </ul>
+                                </div>
+                                <div class="btn-group">
+                                    <button id="contact-button" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                        <span><img src="~/images/social.png" /></span> Our Contacts
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li class=" dropdown-header">Contact Info:</li>
+                                        <li><img src="~/images/telephone.png" /><a href="#" data-toggle="modal" data-target="#PhoneModal">Call us</a></li>
+                                        <li><img src="~/images/email.png" /><a href="#" data-toggle="modal" data-target="#EmailModal">Send us a mail</a></li>
+                                        <li class="divider"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <!-- Phone contact Modal content-->
+    <div class="modal fade" id="PhoneModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title h4">FU Online Servive Contacts</h4>
+                </div>
+                <div class="modal-body">
+                    <p>(+84) 0000 000 00</p>
+                    <p>(+84) 0000 000 00</p>
+                    <p>(+84) 0000 000 00</p>
+                    <p>(+84) 0000 000 00</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Email Modal content-->
+    <div class="modal fade" id="EmailModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title h4">Email us..</h4>
+                </div>
+                <div class="modal-body form-horizontal">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.ValidationSummary()
+                        <div class="form-group">
+                            <p class="control-label col-md-2 required">Your Fullname: </p>
+                            <div class="col-md-10">
+                                <p>@Html.TextBoxFor(m => m.FullName, htmlAttributes: new { @class = "form-control col-md-2 required" })</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <p class="control-label col-md-2 required">Your Email: </p>
+                            <div class="col-md-10">
+                                <p>@Html.TextBoxFor(m => m.From, htmlAttributes: new { @class = "form-control col-md-2 required" })</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <p class="control-label col-md-2 required">Subject: </p>
+                            <div class="col-md-10">
+                                <p>@Html.TextBoxFor(m => m.Subject, htmlAttributes: new { @class = "form-control col-md-2 required" })</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <p class="control-label col-md-2 required">Message: </p>
+                            <div class="col-md-10">
+                                <p>@Html.TextAreaFor(m => m.Body, htmlAttributes: new { @class = "form-control col-md-2 required" })</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <button type="submit" class="btn  btn-default btn-success" data-target="#SendModal">Send</button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+            <!-- Email sending Modal content-->
+            <div class="modal fade" id="SendModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Email sending.........</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+            <script src="~/Scripts/custom.js"></script>
+        </div>

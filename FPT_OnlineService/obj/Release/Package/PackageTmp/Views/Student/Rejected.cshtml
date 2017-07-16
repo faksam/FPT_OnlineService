@@ -1,0 +1,94 @@
+﻿@model PagedList.IPagedList<FPT_OnlineService.Models.Form>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Rejected";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h2>Rejected</h2>
+
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayName("S/N ")
+            </th>
+            <th>
+                @Html.DisplayName("Form Details")
+            </th>
+            <th>
+                @Html.DisplayName("Form Status")
+            </th>
+            <th>
+                @Html.ActionLink("Date", "Rejected", new { sortOrder = ViewBag.DateSortParm })
+            </th>
+            <th></th>
+        </tr>
+    </thead>    @{int i = 1;
+                  if (Model.PageNumber != 1)
+                  {
+                      i = ((Model.PageNumber - 1) * 10) + 1;
+                  }
+    string date = "";
+    DateTime today = TimeZoneInfo.ConvertTime(DateTime.Now, TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time")); 
+    }
+    @foreach (var item in Model)
+    {
+        string count = i + " ";
+        string roleNo = FPT_OnlineService.DAL.Users.GetStudentRollNo(FPT_OnlineService.DAL.UserInfo.Name, FPT_OnlineService.DAL.UserInfo.Username);
+        if (item.StudentRollNo.Contains(roleNo) && item.Status.Equals("Rejected"))
+        {
+            date = FPT_OnlineService.Helper.Help.GetDate(item.Date);
+            if (item.Date.Year.Equals(today.Date.Year))
+            {
+                if (item.Date.Month.Equals(today.Month))
+                {
+                    if (item.Date.Day.Equals(today.Day))
+                    {
+                        date = item.Date.ToString("hh:mm tt");
+                    }
+                    else
+                    {
+                        date = item.Date.ToString("M");
+                    }
+                }
+                else
+                {
+                    date = item.Date.ToString("M");
+                }
+            }
+            else
+            {
+                date = item.Date.Month + " " + item.Date.Year;
+            }
+            <tbody>
+                <tr>
+                    <td>
+                        @Html.DisplayName(count)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FormDetails)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayName(date)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", "Forms", new { id = item.ID }, null)
+                    </td>
+                </tr>
+            </tbody>
+            i++;
+        }
+    }
+</table>
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Rejected",
+    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))

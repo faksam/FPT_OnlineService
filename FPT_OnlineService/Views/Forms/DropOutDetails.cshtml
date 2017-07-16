@@ -1,0 +1,76 @@
+﻿@model FPT_OnlineService.Models.DropOutForm
+
+@{
+    
+}
+<br />
+<hr />
+    <div class="">
+        <h4 class="h4">DropOut Form Details.</h4>
+        <hr />
+        <div class="jumbotron" style="margin: 0 10% 2% 5%;">
+            <dl class="dl-horizontal">
+                @Html.HiddenFor(model => model.FormID)
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Form.StudentName)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Form.StudentName)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Form.StudentRollNo)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Form.StudentRollNo)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Form.Type)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Form.Type)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Class)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Class)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.MethodPayment)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.MethodPayment)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.DropOutDate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.DropOutDate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Reason)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Reason)
+                </dd>
+
+            </dl>
+        </div>
+        </div>
+    <p>
+        @Html.ActionLink("Back to List", "Index")
+    </p>

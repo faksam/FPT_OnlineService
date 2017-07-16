@@ -1,0 +1,21 @@
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\DAL\bin\Release\DAL.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\DAL\bin\Release\DAL.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\DAL\bin\Release\Entity.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\DAL\bin\Release\Entity.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\DAL\obj\Release\DAL.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\DAL\obj\Release\DAL.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\DAL\bin\Release\DAL.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\DAL\bin\Release\DAL.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\DAL\bin\Release\Entity.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\DAL\bin\Release\Entity.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\DAL\obj\Release\DAL.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\DAL\obj\Release\DAL.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\DAL\bin\Release\DAL.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\DAL\bin\Release\DAL.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\DAL\bin\Release\Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\DAL\bin\Release\Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\DAL\obj\Release\DAL.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\DAL\obj\Release\DAL.pdb

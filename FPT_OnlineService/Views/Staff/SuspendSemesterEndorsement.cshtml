@@ -1,0 +1,251 @@
+﻿@model FPT_OnlineService.Models.SuspendSemesterForm
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_StaffLayout.cshtml";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+        <h4 class="h4">Suspend Semester Form.</h4>
+        <div class="form-horizontal">
+            <hr />
+            <dl class="dl-horizontal">
+                @Html.HiddenFor(model => model.FormID)
+                <dt>
+                    @Html.DisplayNameFor(model => model.Form.Type)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Form.Type)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Form.StudentName)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Form.StudentName)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Form.StudentRollNo)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Form.StudentRollNo)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Form.StudentPhone)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Form.StudentPhone)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Form.SemesterName)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Form.SemesterName)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.TuitionFee)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.TuitionFee)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.IsWeekBefore)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.IsWeekBefore)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PreviousSemester)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PreviousSemester)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.TwoPrevSemester)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.TwoPrevSemester)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Form.ApprovalBy)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Form.ApprovalBy)
+                </dd>
+                <h4>Comments: </h4>
+                @foreach (var comment in ViewBag.Comment)
+            {
+
+                    <dt>
+                        @FPT_OnlineService.Helper.Help.GetStaffRole(Int32.Parse((string)comment.RoleID)):
+                    </dt>
+                    <dd>
+                        @comment.Comment
+                    </dd>
+            }
+
+            </dl>
+            <p>
+            @if (!FPT_OnlineService.DAL.UserInfo.Username.Equals(null))
+            {
+                if (FPT_OnlineService.DAL.UserInfo.Role.Equals("Student"))
+                {
+                    @Html.ActionLink("Edit", "Edit", "Forms", new { id = Model.FormID }) @:&nbsp;
+                    @Html.ActionLink("Back to List", "Index", "Student")
+                }
+                else if (FPT_OnlineService.DAL.UserInfo.Role.Contains("Staff"))
+                {
+
+                    if (!Model.Form.Status.Equals("Approved"))
+                    {
+
+                        if (!Model.Form.Status.Equals("Rejected"))
+                        {
+                                if (Model.Form.CurrentDesk.Equals(FPT_OnlineService.DAL.UserInfo.Role))
+                                {
+                                    if (FPT_OnlineService.Helper.Help.GetFlowCount(Model.Form.Flow,FPT_OnlineService.DAL.UserInfo.Role) == 1)
+                                    {
+                                        <hr />
+                                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                        <div class="form-group">
+                                            @Html.Label("Submitted A week before :", htmlAttributes: new { @class = "control-label col-md-2 required" })
+                                            <div class="col-md-10">
+                                                @if (FPT_OnlineService.Helper.Help.CheckIsWeekBefore(Model.Form.Date, Model.Form.Semester.StartDate))
+                                                {
+                                                    <input type="checkbox" name="IsWeekBefore" class="big-checkbox" checked />
+                                                }
+                                                else
+                                                {
+                                                    <input type="checkbox" name="IsWeekBefore" class="big-checkbox" />
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            @Html.Label("Tuition fee complete :", htmlAttributes: new { @class = "control-label col-md-2 required" })
+                                            <div class="col-md-10">
+                                                @if (Model.TuitionFee)
+                                                {
+                                                    <input type="checkbox" name="TuitionFee" class="big-checkbox" checked />
+                                                }
+                                                else
+                                                {
+                                                    <input type="checkbox" name="TuitionFee" class="big-checkbox" />
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.PreviousSemester, htmlAttributes: new { @class = "control-label col-md-2 required" })
+                                            <div class="col-md-10">
+                                                @Html.DropDownListFor(model => model.PreviousSemester, new SelectList(new List<Object>{
+                                   new { value = "Studied" , text = "Studied"  },
+                                   new { value = "Suspended" , text = "Suspended"},
+                                   new { value = "Retake" , text = "Retake"} }, "value", "text"),
+                                   htmlAttributes: new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.TwoPrevSemester, htmlAttributes: new { @class = "control-label col-md-2 required" })
+                                            <div class="col-md-10">
+                                                @Html.DropDownListFor(model => model.TwoPrevSemester, new SelectList(new List<Object>{
+                                   new { value = "Studied" , text = "Studied"  },
+                                   new { value = "Suspended" , text = "Suspended"},
+                                   new { value = "Retake" , text = "Retake"} }, "value", "text"),
+                                   htmlAttributes: new { @class = "form-control" })
+                                            </div>
+                                        </div>
+
+
+                                    }
+                                    <div class="form-group">
+                                        @Html.Label("Approve/Reject :", htmlAttributes: new { @class = "control-label col-md-2 required" })
+                                        <div class="col-md-10">
+                                            <select class="form-control" id="FormStatus" name="FormStatus">
+                                                <option value="">--- Select ---</option>
+                                                <option value="Rejected">Reject</option>
+                                                <option value="Approved">Approve</option>
+                                                <option value="">Forward</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div id="openModal" class="modalDialog">
+                                        <div class="active dropdown">
+                                            <a href="#close" title="Close" class="close">X</a>
+                                            <div class="form-group">
+                                                @Html.Label("Forward to: ", htmlAttributes: new { @class = "control-label col-md-2 required" })
+                                                <div class="col-md-10">
+                                                    <select class="form-control" name="ForwardTo">
+                                                        <option value="">--- Select ---</option>
+                                                        @if (!FPT_OnlineService.DAL.UserInfo.Role.Equals("Academic-Staff"))
+                                                        {
+                                                            <option value="7">Academic Staff</option>
+                                                        }
+                                                        else
+                                                        {
+                                                            <option value="1">Student</option>
+                                                        }
+                                                        @if (!FPT_OnlineService.DAL.UserInfo.Role.Equals("HeadOfAcademicDepartment-Staff"))
+                                                        {
+                                                            <option value="4">Head of Academic Department</option>
+                                                        }
+                                                        @if (!FPT_OnlineService.DAL.UserInfo.Role.Equals("AcademicHead-Staff"))
+                                                        {
+                                                            <option value="5">Academic Head</option>
+                                                        }
+                                                        @if (!FPT_OnlineService.DAL.UserInfo.Role.Equals("CampusDirector-Staff"))
+                                                        {
+                                                            <option value="6">Campus Director</option>
+                                                        }
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-md-offset-2 col-md-10">
+                                                    <input type="submit" value="Endorse" class="btn btn-default" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.Label("Comment / Note: ", htmlAttributes: new { @class = "control-label col-md-2 required" })
+                                        <div class="col-md-10">
+                                            <input type="text" class="form-control" row="15" name="formComment" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-offset-2 col-md-10">
+                                            <input type="submit" value="Endorse" class="btn btn-default" />
+                                            <a href="#openModal" id="displayFor" class="btn btn-default">Forward</a>
+                                        </div>
+                                    </div>
+                                }
+                        }
+                    }
+                }
+            }
+                </p>
+            </div>
+
+            <br />
+            <hr />
+            @Html.ActionLink("Back to List", "Index", "Staff")
+            }

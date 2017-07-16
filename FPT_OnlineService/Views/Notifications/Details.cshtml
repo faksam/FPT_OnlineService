@@ -1,0 +1,51 @@
+﻿@model FPT_OnlineService.Models.Notification
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Notification</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Form.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Form.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Staff.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Staff.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Student.UserId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student.UserId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Message)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Message)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

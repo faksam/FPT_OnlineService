@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - FU Online Student Service</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="body-content">
+        <div class="row" style="width:100%; padding-left:10px;">
+            <img src="/images/FPT-Header.png">
+        </div>
+        <div class="navbar navbar-custom navbar-fixed">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default" onclick="window.location.reload();">
+                            <span class="glyphicon glyphicon-refresh"> Refresh</span>
+                        </button>
+                    </div> &nbsp;
+                </div>
+                <div class="col-sm-9">
+                    <div class="row">
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <footer>
+                <p style="text-align:right;">&copy; @DateTime.Now.Year - FU Online Student Service</p>
+            </footer>
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")
+            @Scripts.Render("~/bundles/custom")
+            @RenderSection("scripts", required: false)
+        </div>
+    </div>
+</body>
+</html>

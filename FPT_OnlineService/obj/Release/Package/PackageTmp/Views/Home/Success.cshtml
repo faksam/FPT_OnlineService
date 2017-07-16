@@ -1,0 +1,50 @@
+﻿@model FPT_OnlineService.Models.MailModel
+@{
+    ViewBag.Title = "Success";
+}
+<h2>Mail Sent!</h2>
+
+<hr />
+<h4 class="h4">Mail content.</h4>
+<hr />
+<div class="jumbotron" style="margin: 0 10% 2% 5%;">
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayName("Your FullName: ")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Your Email: ")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.From)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Body)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Body)
+        </dd>
+
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Back Home", "Index")
+</p>

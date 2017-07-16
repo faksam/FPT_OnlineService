@@ -1,0 +1,76 @@
+﻿@model FPT_OnlineService.Models.CourseRegForm
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<link href="~/Content/Site.css" rel="stylesheet" />
+<br />
+<hr />
+    <h4 class="h4">Course Registration Details.</h4>
+    <hr />
+    <div class="jumbotron" style="margin: 0 10% 2% 5%;">
+        <dl class="dl-horizontal">
+            @Html.HiddenFor(model => model.FormID)
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Form.StudentName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Form.StudentName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Form.StudentRollNo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Form.StudentRollNo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Form.StudentPhone)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Form.StudentPhone)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.SubjectCode)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.SubjectCode)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Subject)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Subject)
+            </dd>
+
+        </dl>
+    </div>
+
+    <div>
+        <p>
+            @if (!FPT_OnlineService.DAL.UserInfo.Username.Equals(null))
+            {
+                if (FPT_OnlineService.DAL.UserInfo.Role.Equals("Student"))
+                {
+                    @Html.ActionLink("Back to List", "Index", "Student")
+                }
+                else if (FPT_OnlineService.DAL.UserInfo.Role.Contains("Staff"))
+                {
+                    @Html.ActionLink("Forward", "Forward", "Staff", new { id = Model.FormID }) @:&nbsp;
+                    @Html.ActionLink("Reject", "Reject", "Staff", new { id = Model.FormID }) @:&nbsp;
+                    @Html.ActionLink("Approve", "Approve", "Staff", new { id = Model.FormID }) @:&nbsp;
+                    @Html.ActionLink("Back to List", "Index", "Staff")
+                }
+            }
+        </p>
+    </div>

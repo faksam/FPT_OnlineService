@@ -1,0 +1,24 @@
+﻿@using Microsoft.AspNet.Identity
+@using Microsoft.Owin.Security
+@{
+    var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
+}
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOut", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+    <ul class="nav navbar-custom navbar-nav navbar-right">
+        <li>@Html.ActionLink(FPT_OnlineService.DAL.Users.GetUserRole2() +" - "+ User.Identity.GetUserName(), "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })</li>
+        <li><a href="javascript:document.getElementById('logoutForm').submit()">Log out</a></li>
+    </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-custom navbar-nav navbar-right">
+        <li>@Html.ActionLink("Login using email fpt.edu.vn", "ExternalLogin", "Account")</li>
+        <li>
+        </li>
+    </ul>
+}

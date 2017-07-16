@@ -1,0 +1,194 @@
+﻿@model FPT_OnlineService.Models.FormsReport
+@{
+    ViewBag.Title = "Forms Report";
+    Layout = "~/Views/Shared/_StaffLayout.cshtml";
+}
+
+<h2>Select a semester to view it's forms report</h2>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                Semester Name
+            </th>
+            <th>
+                Semester Start Date
+            </th>
+            <th>
+                Semester End Date
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{int i = 1;
+        string sdate = "";
+        string edate = "";
+        DateTime today = TimeZoneInfo.ConvertTime(DateTime.Now, TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time"));}
+        @foreach (var item in Model.Semesters)
+        {
+            sdate = FPT_OnlineService.Helper.Help.GetDate(item.StartDate);
+            edate = FPT_OnlineService.Helper.Help.GetDate(item.EndDate);
+
+            <tr class="btn-link" onclick="location.href = '@Url.Action("FormsReport",  new { id = item.Name })'">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayName(sdate)
+                </td>
+                <td>
+                    @Html.DisplayName(edate)
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+<br />
+<hr />
+
+@if (Model.Forms != null)
+{
+    <h3>Forms Report For @ViewBag.SemesterName</h3>
+    <hr />
+    <div class="col-lg-12">
+        <div class="well">
+            <h3>All Forms </h3>
+            <table class="table">
+                <tr>
+                    <th>New</th>
+                    <th>In-Progress</th>
+                    <th>Approved</th>
+                    <th>Rejected</th>
+                    <th>Total</th>
+                </tr>
+                @if (FPT_OnlineService.DAL.UserInfo.Role.Equals("Academic-Staff"))
+                {
+                    <tr>
+                        <td class="btn-link" onclick="location.href = '@Url.Action("/New")'">@Model.Forms.Where(f => f.Status == "New").Count()</td>
+                        <td class="btn-link" onclick="location.href = '@Url.Action("/InProgress")'">@Model.Forms.Where(f => f.Status == "Inprogress").Count()</td>
+                        <td class="btn-link" onclick="location.href = '@Url.Action("/Approved")'">@Model.Forms.Where(f => f.Status == "Approved").Count()</td>
+                        <td class="btn-link" onclick="location.href = '@Url.Action("/Rejected")'">@Model.Forms.Where(f => f.Status == "Rejected").Count()</td>
+                        <td class="btn-link" onclick="location.href = '@Url.Action("/")'">@Model.Forms.Count()</td>
+                    </tr>
+                }
+                else
+                {
+                    <tr>
+                        <td>@Model.Forms.Where(f => f.Status == "New").Count()</td>
+                        <td>@Model.Forms.Where(f => f.Status == "Inprogress").Count()</td>
+                        <td>@Model.Forms.Where(f => f.Status == "Approved").Count()</td>
+                        <td>@Model.Forms.Where(f => f.Status == "Rejected").Count()</td>
+                        <td>@Model.Forms.Count()</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="well">
+                <h4 class="muted">@Model.CourseRegForms.Count() Course Registration Form</h4>
+                <table class="table">
+                    <tr>
+                        <th>New</th>
+                        <th>In-Progress</th>
+                        <th>Approved</th>
+                        <th>Rejected</th>
+                    </tr>
+
+                    <tr>
+                        <td>@Model.CourseRegForms.Where(f => f.Form.Status == "New").Count()</td>
+                        <td>@Model.CourseRegForms.Where(f => f.Form.Status == "Inprogress").Count()</td>
+                        <td>@Model.CourseRegForms.Where(f => f.Form.Status == "Approved").Count()</td>
+                        <td>@Model.CourseRegForms.Where(f => f.Form.Status == "Rejected").Count()</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="well">
+                <h4 class="text-warning">@Model.SuspendSemesterForms.Count() Suspend Semester Form</h4>
+                <table class="table">
+                    <tr>
+                        <th>New</th>
+                        <th>In-Progress</th>
+                        <th>Approved</th>
+                        <th>Rejected</th>
+                    </tr>
+
+                    <tr>
+                        <td>@Model.SuspendSemesterForms.Where(f => f.Form.Status == "New").Count()</td>
+                        <td>@Model.SuspendSemesterForms.Where(f => f.Form.Status == "Inprogress").Count()</td>
+                        <td>@Model.SuspendSemesterForms.Where(f => f.Form.Status == "Approved").Count()</td>
+                        <td>@Model.SuspendSemesterForms.Where(f => f.Form.Status == "Rejected").Count()</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="well">
+                <h4 class="text-info">@Model.SuspendSubjectForms.Count() Suspend Subject Form</h4>
+                <table class="table">
+                    <tr>
+                        <th>New</th>
+                        <th>In-Progress</th>
+                        <th>Approved</th>
+                        <th>Rejected</th>
+                    </tr>
+
+                    <tr>
+                        <td>@Model.SuspendSubjectForms.Where(f => f.Form.Status == "New").Count()</td>
+                        <td>@Model.SuspendSubjectForms.Where(f => f.Form.Status == "Inprogress").Count()</td>
+                        <td>@Model.SuspendSubjectForms.Where(f => f.Form.Status == "Approved").Count()</td>
+                        <td>@Model.SuspendSubjectForms.Where(f => f.Form.Status == "Rejected").Count()</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <div class="well">
+                <h4 class="text-success">@Model.RequestForms.Count() General Request Form</h4>
+                <table class="table">
+                    <tr>
+                        <th>New</th>
+                        <th>In-Progress</th>
+                        <th>Approved</th>
+                        <th>Rejected</th>
+                    </tr>
+
+                    <tr>
+                        <td>@Model.RequestForms.Where(f => f.Form.Status == "New").Count()</td>
+                        <td>@Model.RequestForms.Where(f => f.Form.Status == "Inprogress").Count()</td>
+                        <td>@Model.RequestForms.Where(f => f.Form.Status == "Approved").Count()</td>
+                        <td>@Model.RequestForms.Where(f => f.Form.Status == "Rejected").Count()</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="well">
+                <h4 class="text-danger">@Model.DropOutForms.Count() Drop Out Form</h4>
+                <table class="table">
+                    <tr>
+                        <th>New</th>
+                        <th>In-Progress</th>
+                        <th>Approved</th>
+                        <th>Rejected</th>
+                    </tr>
+
+                    <tr>
+                        <td>@Model.DropOutForms.Where(f => f.Form.Status == "New").Count()</td>
+                        <td>@Model.DropOutForms.Where(f => f.Form.Status == "Inprogress").Count()</td>
+                        <td>@Model.DropOutForms.Where(f => f.Form.Status == "Approved").Count()</td>
+                        <td>@Model.DropOutForms.Where(f => f.Form.Status == "Rejected").Count()</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+}

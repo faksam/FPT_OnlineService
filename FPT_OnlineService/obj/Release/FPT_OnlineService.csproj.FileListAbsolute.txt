@@ -1,0 +1,188 @@
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\obj\Release\FPT_OnlineService.Migrations.All.resources
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\obj\Release\FPT_OnlineService.csproj.GenerateResource.Cache
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\FPT_OnlineService.dll.config
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\FPT_OnlineService.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\FPT_OnlineService.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Antlr3.Runtime.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\DAL.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\EntityFramework.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\EntityFramework.SqlServer.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Newtonsoft.Json.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Owin.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.Helpers.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.Mvc.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.Optimization.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.Razor.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.WebPages.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.WebPages.Razor.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\WebGrease.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Entity.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\DAL.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.Helpers.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.Mvc.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.Optimization.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.Razor.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.WebPages.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\System.Web.WebPages.Razor.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Antlr3.Runtime.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Newtonsoft.Json.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\EntityFramework.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\EntityFramework.SqlServer.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\bin\Entity.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\obj\Release\FPT_OnlineService.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService\obj\Release\FPT_OnlineService.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\FPT_OnlineService.dll.config
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\FPT_OnlineService.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\FPT_OnlineService.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Antlr3.Runtime.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\DAL.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\EntityFramework.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\EntityFramework.SqlServer.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Newtonsoft.Json.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Owin.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Helpers.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Mvc.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Optimization.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Razor.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.Razor.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\WebGrease.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Entity.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\DAL.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Helpers.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Mvc.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Optimization.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Razor.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.Razor.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Antlr3.Runtime.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Newtonsoft.Json.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\EntityFramework.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\EntityFramework.SqlServer.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\bin\Entity.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\obj\Release\FPT_OnlineService.csprojResolveAssemblyReference.cache
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\obj\Release\FPT_OnlineService.Migrations.All.resources
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\obj\Release\FPT_OnlineService.csproj.GenerateResource.Cache
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\obj\Release\FPT_OnlineService.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService\obj\Release\FPT_OnlineService.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\FPT_OnlineService.dll.config
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\FPT_OnlineService.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\FPT_OnlineService.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Antlr3.Runtime.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\EntityFramework.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\EntityFramework.SqlServer.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.SignalR.SqlServer.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Newtonsoft.Json.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Owin.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\PagedList.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\PagedList.Mvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Helpers.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Mvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Optimization.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Razor.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.Razor.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\WebGrease.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.SignalR.SqlServer.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\PagedList.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\PagedList.Mvc.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Helpers.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Mvc.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Optimization.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.Razor.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\System.Web.WebPages.Razor.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Antlr3.Runtime.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Newtonsoft.Json.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\EntityFramework.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\EntityFramework.SqlServer.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\obj\Release\FPT_OnlineService.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\obj\Release\FPT_OnlineService.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\obj\Release\FPT_OnlineService.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\obj\Release\FPT_OnlineService.Migrations.All.resources
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService\obj\Release\FPT_OnlineService.csproj.GenerateResource.Cache

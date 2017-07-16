@@ -1,0 +1,47 @@
+﻿@{        
+    if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+    {
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    }
+    else if (User.Identity.IsAuthenticated && User.IsInRole("Student"))
+    {
+        FPT_OnlineService.DAL.Users.GetStudent();
+        Layout = "~/Views/Shared/_StudentLayout.cshtml";
+    }
+    else if (User.Identity.IsAuthenticated)
+    {
+        string userRole = FPT_OnlineService.DAL.Users.GetUserRole();
+        if(userRole.Contains("Staff"))
+        {
+            FPT_OnlineService.DAL.Users.GetStaff();
+            Layout = "~/Views/Shared/_StaffLayout.cshtml";
+        }
+    }
+        
+    else if(User.Identity.IsAuthenticated)
+    {
+        string role ="";
+        if(FPT_OnlineService.Models.User.UserRole != null)
+        {
+            role = FPT_OnlineService.Models.User.UserRole;
+        }
+        if (role.Equals("Admin"))
+        {
+            Layout = "~/Views/Shared/_AdminLayout.cshtml";
+        }
+        else if (role.Equals("Student"))
+        {
+            FPT_OnlineService.DAL.Users.GetStudent();
+            Layout = "~/Views/Shared/_StudentLayout.cshtml";
+        }
+        else if (role.Contains("FPT-Staff"))
+        {
+            FPT_OnlineService.DAL.Users.GetStaff();
+            Layout = "~/Views/Shared/_StaffLayout.cshtml";
+        }
+    }
+    else if (!User.Identity.IsAuthenticated)
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+}

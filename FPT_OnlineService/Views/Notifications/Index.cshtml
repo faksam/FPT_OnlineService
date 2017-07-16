@@ -1,0 +1,52 @@
+﻿@model IEnumerable<FPT_OnlineService.Models.Notification>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Form.Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Staff.UserId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Student.UserId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Message)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Form.Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Staff.UserId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Student.UserId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Message)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

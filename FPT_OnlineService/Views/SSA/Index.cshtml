@@ -1,0 +1,55 @@
+﻿@model IEnumerable<FPT_OnlineService.Models.Form>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>New</h2>
+
+@using (Html.BeginForm())
+{
+    <p>
+        Find by student name: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Form Type", "Index", new { sortOrder = ViewBag.TypeSortParm })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.ActionLink("Submission Date", "Index", new { sortOrder = ViewBag.DateSortParm })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.DisplayNameFor(model => model.ID)
+        </td>
+        <td>
+            @Html.DisplayNameFor(model => model.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+</table>

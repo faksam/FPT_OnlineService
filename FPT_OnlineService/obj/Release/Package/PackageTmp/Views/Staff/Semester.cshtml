@@ -1,0 +1,72 @@
+﻿@model IEnumerable<FPT_OnlineService.Models.Semester>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_StaffLayout.cshtml";
+}
+
+<h2>List Of Semester's</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Year)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NoOfWeeks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NoOfMonths)
+        </th>
+        <th></th>
+    </tr>
+
+@{int i = 1;
+        string sdate = "";
+        string edate = "";
+        DateTime today = DateTime.Now;}
+@foreach (var item in Model)
+    {
+        sdate = FPT_OnlineService.Helper.Help.GetDate(item.StartDate);
+        edate = FPT_OnlineService.Helper.Help.GetDate(item.EndDate);
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayName(sdate)
+        </td>
+        <td>
+            @Html.DisplayName(edate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Year)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NoOfWeeks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NoOfMonths)
+        </td>
+        @if (FPT_OnlineService.DAL.UserInfo.Role.Equals("AcademicHead-Staff"))
+        {
+            <td>
+                @Html.ActionLink("Edit", "EditSemester", new { id = item.Name }) |
+                @Html.ActionLink("Details", "SemesterDetails", new { id=item.Name }) |
+                @Html.ActionLink("Delete", "DeleteSemester", new { id=item.Name })
+            </td>
+        }
+        
+    </tr>
+}
+
+</table>

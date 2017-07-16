@@ -1,0 +1,88 @@
+﻿@model FPT_OnlineService.Models.SuspendSemesterForm
+
+<!DOCTYPE html>
+<br />
+<hr />
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        System.Collections.ArrayList UserDetails = FPT_OnlineService.DAL.Users.GetUser();
+        @Html.AntiForgeryToken()
+        <div class="">
+    <div class="form-horizontal">
+        <h4 class="h4"> Suspend Semester Form.</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.FormID)
+
+        <div class="form-horizontal">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                @Html.Label(UserDetails[0].ToString(), "Student Name :", htmlAttributes: new { @class = "control-label col-md-2 required" })
+                <div class="col-md-10">
+                    <input class="form-control" type="text" readonly value="@UserDetails[0].ToString()" />
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label(UserDetails[0].ToString(), "Student RollNo :", htmlAttributes: new { @class = "control-label col-md-2 required" })
+                <div class="col-md-10">
+                    <input class="form-control" type="text" readonly value="@FPT_OnlineService.DAL.Users.GetStudentRollNo(UserDetails[0].ToString(), UserDetails[1].ToString())" />
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.Label(FPT_OnlineService.DAL.UserInfo.Email, "Student Email :", htmlAttributes: new { @class = "control-label col-md-2 required" })
+                <div class="col-md-10">
+                    <input class="form-control" type="text" readonly value="@UserDetails[2].ToString()" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Form.StudentPhone, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Form.StudentPhone, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Form.StudentPhone, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Form.SemesterName, htmlAttributes: new { @class = "control-label col-md-2 required" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.Form.SemesterName, ViewBag.SemesterName as SelectList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Form.SemesterName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Reason, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.Reason, new SelectList(new List<Object>{
+                        new { value = "Personal" , text = "Personal"  },
+                        new { value = "Finance" , text = "Finance"},
+                        new { value = "Other" , text = "Other"}, }, "value", "text"),
+                        htmlAttributes: new { @class = "form-control", name = "Reason", id = "Reason" })
+                    <br />
+                    <textarea type="text" id="displayFor" name="displayFor" rows="6" class="form-control" style="display:none"></textarea>
+                    @Html.ValidationMessageFor(model => model.Reason, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Submit" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
+    }
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+</body>
+</html>

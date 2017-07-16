@@ -1,0 +1,64 @@
+﻿@model IEnumerable<FPT_OnlineService.Models.CourseRegForm>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Form.Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StudentPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SubjectCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Subject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Class)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Form.Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StudentPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubjectCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Subject)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Class)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.FormID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.FormID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.FormID })
+        </td>
+    </tr>
+}
+
+</table>

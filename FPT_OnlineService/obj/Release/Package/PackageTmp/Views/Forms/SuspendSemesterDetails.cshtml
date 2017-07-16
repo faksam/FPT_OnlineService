@@ -1,0 +1,97 @@
+﻿@model FPT_OnlineService.Models.SuspendSemesterForm
+<br />
+<hr />
+
+    <div class="">
+        <h4 class="h4">Suspend Semester Details Form.</h4>
+        <hr />
+        <div class="jumbotron" style="margin: 0 10% 2% 5%;">
+        <dl class="dl-horizontal">            
+            
+            @Html.HiddenFor(model => model.FormID)
+            <dt>
+                @Html.DisplayNameFor(model => model.Form.StudentName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Form.StudentName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Form.StudentRollNo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Form.StudentRollNo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Form.StudentPhone)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Form.StudentPhone)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Form.SemesterName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Form.SemesterName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Reason)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Reason)
+            </dd>
+        </dl>
+    </div>
+        </div>
+    <p>
+        @if (!FPT_OnlineService.DAL.UserInfo.Username.Equals(null))
+        {
+            if (FPT_OnlineService.DAL.UserInfo.Role.Equals("Student"))
+            {
+                @Html.ActionLink("Back to List", "Index", "Student")
+            }
+            else if (FPT_OnlineService.DAL.UserInfo.Role.Contains("Staff"))
+            {
+                using (Html.BeginForm("StaffEndorsement", "Forms", FormMethod.Post, new { id = Model.FormID }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+                        <h4>Course Registration Form</h4>
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.PreviousSemester, htmlAttributes: new { @class = "control-label col-md-2 required" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.PreviousSemester, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.PreviousSemester, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.TwoPrevSemester, htmlAttributes: new { @class = "control-label col-md-2 required" })
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.TwoPrevSemester, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.TwoPrevSemester, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Save" class="btn btn-default" />
+                        </div>
+                    </div>
+                }
+                @Html.ActionLink("Forward", "Forward", "Staff", new { id = Model.FormID }) @:&nbsp;
+                @Html.ActionLink("Back to List", "Index", "Staff")
+            }
+        }
+</p>

@@ -1,0 +1,14 @@
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Entity\bin\Release\Entity.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Entity\bin\Release\Entity.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Entity\obj\Release\Entity.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\Entity\obj\Release\Entity.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Entity\bin\Release\Entity.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Entity\bin\Release\Entity.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Entity\obj\Release\Entity.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\Entity\obj\Release\Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Entity\bin\Release\Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Entity\bin\Release\Entity.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Entity\obj\Release\Entity.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\Entity\obj\Release\Entity.pdb

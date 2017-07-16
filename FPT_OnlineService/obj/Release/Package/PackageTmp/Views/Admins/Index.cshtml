@@ -1,0 +1,45 @@
+﻿@model IEnumerable<FPT_OnlineService.Models.Staff>
+
+@{
+    ViewBag.Title = "Staff Roles";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Edit Staff Role", "StaffToRole")
+</p>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayName("Staff Role")
+            </th>
+            <th>
+                @Html.DisplayName("Staff Name")
+            </th>
+            <th>
+                @Html.DisplayName("Staff E-mail")
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var listStaffRole in ViewBag.ListOfStaffRole)
+        {
+            <tr>
+                <td>
+                    @listStaffRole.RoleName
+                </td>
+                <td>
+                    @listStaffRole.StaffName
+                </td>
+                <td>
+                    @listStaffRole.StaffEmail
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

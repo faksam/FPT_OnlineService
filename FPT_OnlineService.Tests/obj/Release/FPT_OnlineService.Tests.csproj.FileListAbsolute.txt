@@ -1,0 +1,125 @@
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\obj\Release\FPT_OnlineService.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\obj\Release\FPT_OnlineService.Tests.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\obj\Release\FPT_OnlineService.Tests.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.Tests.dll.config
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.Tests.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.Tests.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Newtonsoft.Json.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.Helpers.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.Mvc.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.Razor.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\EntityFramework.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.Optimization.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Owin.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.Google.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.pdb
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Newtonsoft.Json.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.Helpers.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.Mvc.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.Razor.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\EntityFramework.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\System.Web.Optimization.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.Google.xml
+C:\Users\Columbus\Documents\Visual Studio 2013\Projects\FPT_OnlineService3\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.Tests.dll.config
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.Tests.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.Tests.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Newtonsoft.Json.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Helpers.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Mvc.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Razor.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\EntityFramework.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Optimization.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Owin.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.Google.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.pdb
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Newtonsoft.Json.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Helpers.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Mvc.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Razor.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\EntityFramework.xml
+C:\Users\Columbus\Documents\GitHub\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xm
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.Tests.dll.config
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.Tests.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.Tests.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Newtonsoft.Json.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Helpers.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Mvc.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Razor.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\EntityFramework.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Optimization.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Owin.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.Google.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\PagedList.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\FPT_OnlineService.pdb
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Newtonsoft.Json.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Helpers.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Mvc.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Razor.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\EntityFramework.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\System.Web.Optimization.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Security.Google.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\bin\Release\PagedList.xml
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\obj\Release\FPT_OnlineService.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\obj\Release\FPT_OnlineService.Tests.dll
+C:\Users\Samuel\Documents\Visual Studio 2013\Projects\FPT_OnlineService\FPT_OnlineService.Tests\obj\Release\FPT_OnlineService.Tests.pdb
